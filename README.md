@@ -82,3 +82,15 @@ Successfully loaded! Starting bot...
 
 Have fun creating your chatbot!
 
+
+# Error debugging
+
+My terminal says
+```
+ File "/opt/homebrew/lib/python3.11/site-packages/chromadb/api/types.py", line 99, in maybe_cast_one_to_many
+    if isinstance(target[0], (int, float)):
+                  ~~~~~~^^^
+IndexError: list index out of range
+```
+
+A: Create a folder called docs, add all your relevant documents inside.
