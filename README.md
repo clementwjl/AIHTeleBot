@@ -41,13 +41,13 @@ After you receive the API key, save it into the `.env` file.
 ## 4. Install all dependencies
 
 Windows: 
-Run the following on your shell (Command Prompt)
+Run the following on your terminal (Command Prompt)
 
 ```
 pip install -r requirements.txt
 ```
 
-Mac: Run the following on your shell (zsh)
+Mac: Run the following on your terminal (zsh)
 ```
 pip3 install -r requirements.txt
 ```
@@ -66,12 +66,12 @@ You may use helper functions or even change `bot.py` to suit your project requir
 
 Time for you to try your very creation!
 
-Windows: Run the following on your shell (Command Prompt)
+Windows: Run the following on your terminal (Command Prompt)
 ```
 python bot.py
 ```
 
-Mac: Run the following on your shell (zsh)
+Mac: Run the following on your terminal (zsh)
 ```
 python3 bot.py
 ```
@@ -95,7 +95,7 @@ My terminal says
 IndexError: list index out of range
 ```
 
-A: Create a folder called docs, add all your relevant documents inside.
+A: Create a folder called docs, add all your relevant documents inside. It should do the trick.
 
 # Helpful references
 - [Telebot Documentation](https://pypi.org/project/pyTelegramBotAPI/)
