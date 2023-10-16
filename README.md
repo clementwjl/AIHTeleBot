@@ -2,9 +2,9 @@
 
 As part of your project, you are required to implement a chatbot using Langchain. However, implementing a whole new web application may be too tedious and out-of-scope, so we have provided code to implement your code to a telegram bot instead!
 
-# What to do: 
+## What to do: 
 
-## 1. Clone to your repository
+### 1. Clone to your repository
 
 On your preferred IDE, open the folder that you wish you put the project in, and proceed to run the following in your shell:
 
@@ -18,7 +18,7 @@ And afterwhich,
 cd AIHTeleBot
 ```
 
-## 2. Creating the environment variables
+### 2. Creating the environment variables
 
 On the `aihbot` directory, create a `.env` file or use an existing one (if you have from the lab). Open the file to the following:
 
@@ -32,13 +32,13 @@ Use your group's OpenAI and LangSmith API Key.
 
 We will talk about how to get your Telegram bot token in the next step.
 
-## 3. Get your telegram API key
+### 3. Get your telegram API key
 
 You will need the API key to connect to a bot. This requires you to navigate to [BotFather](https://t.me/BotFather). Do refer to [this video](https://www.youtube.com/watch?v=aNmRNjME6mE&ab_channel=SmartBotsLand) should you need help to gather the API key.
 
 After you receive the API key, save it into the `.env` file.
 
-## 4. Install all dependencies
+### 4. Install all dependencies
 
 Windows: 
 Run the following on your terminal (Command Prompt)
@@ -52,7 +52,7 @@ Mac: Run the following on your terminal (zsh)
 pip3 install -r requirements.txt
 ```
 
-## 5. How to make your code run with the bot
+### 5. How to make your code run with the bot
 
 There are two Python files that will be running the show, `bot.py` and `model.py`.
 
@@ -85,7 +85,7 @@ Successfully loaded! Starting bot...
 Have fun creating your chatbot!
 
 
-# Error debugging
+## Error debugging
 
 My terminal says
 ```
@@ -97,6 +97,6 @@ IndexError: list index out of range
 
 A: Create a folder called docs, add all your relevant documents inside. It should do the trick.
 
-# Helpful references
+## Helpful references
 - [Telebot Documentation](https://pypi.org/project/pyTelegramBotAPI/)
 - [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
