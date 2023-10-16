@@ -20,13 +20,15 @@ cd AIHTeleBot
 
 ## 2. Creating the environment variables
 
-On the `aihbot` directory, create a `.env` file or use an existing one (if you have from the lab). The format should be as such:
+On the `aihbot` directory, create a `.env` file or use an existing one (if you have from the lab). Open the file to the following:
 
 ```
 OPENAI_API_KEY=sk-YOUR_OPENAI_APIKEY
 LANGSMITH_API_KEY=ls__YOUR_LS_APIKEY
 TELEGRAM_BOT_TOKEN=YOUR_BOTTOKEN
 ```
+
+Use your group's OpenAI and LangSmith API Key.
 
 We will talk about how to get your Telegram bot token in the next step.
 
