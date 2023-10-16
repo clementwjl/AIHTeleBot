@@ -9,13 +9,13 @@ As part of your project, you are required to implement a chatbot using Langchain
 On your preferred IDE, open the folder that you wish you put the project in, and proceed to run the following in your shell:
 
 ```
-git clone 
+git clone https://github.com/zhengfeng-toh/AIHTeleBot
 ```
 
 And afterwhich,
 
 ```
-cd aihbot
+cd AIHTeleBot
 ```
 
 ## 2. Creating the environment variables
