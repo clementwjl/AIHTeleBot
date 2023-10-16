@@ -54,11 +54,11 @@ pip3 install -r requirements.txt
 
 There are two Python files that will be running the show, `bot.py` and `model.py`.
 
-- `model.py` will be the file that your project is running.
-
 - `bot.py` will assist in receiving and sending out responses. 
 
-Modify `model.py` with your langchain model. You may use helper functions or even change `bot.py` to suit your project requirements. Ultimately, it is up to your group to decide how the chatbot should behave. 
+- `model.py` currently consists of only one function, `getResponses(question)`. It takes in the user's input and should return the message that we would like to return to the user. You are to modify this function with your current model. 
+
+You may use helper functions or even change `bot.py` to suit your project requirements. Ultimately, it is up to your group to decide how the chatbot should behave. 
 
 ## 6. Test the bot
 
@@ -94,3 +94,7 @@ IndexError: list index out of range
 ```
 
 A: Create a folder called docs, add all your relevant documents inside.
+
+# Helpful references
+- [Telebot Documentation](https://pypi.org/project/pyTelegramBotAPI/)
+- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
