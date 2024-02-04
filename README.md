@@ -100,3 +100,4 @@ A: Create a folder called docs, add all your relevant documents inside. It shoul
 ## Helpful references
 - [Telebot Documentation](https://pypi.org/project/pyTelegramBotAPI/)
 - [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
+- [Ragas Documentation](https://python.langchain.com/docs/get_started/introduction](https://docs.ragas.io/en/stable/)https://docs.ragas.io/en/stable/)
